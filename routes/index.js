@@ -9,6 +9,7 @@ router.get('/dogs', function(req, res, next){
   res.send('Woof I am a dog')
 })
 
+
 router.get('/cat', function(req, res, next){
   res.send("I'm actually an Emu")
 })
